@@ -7,7 +7,7 @@ import pygame
 pygame.init()
 
 
-RATE = 44100
+RATE = 48000
 CHUNK = int((1/30) * RATE)
 FORMAT = pyaudio.paInt16
 
